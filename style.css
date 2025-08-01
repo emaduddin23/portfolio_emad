@@ -606,3 +606,20 @@ just{
     text-align: center;
   }
 }
+/* Add to style.css */
+.blue-line-container {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.blue-vertical-line {
+  width: 6px;
+  background: linear-gradient(to bottom, #0ea5e9, #38bdf8);
+  border-radius: 3px;
+}
+
+.content-with-line {
+  flex: 1;
+}
+}
